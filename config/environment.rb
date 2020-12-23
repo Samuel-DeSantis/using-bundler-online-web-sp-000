@@ -1,4 +1,4 @@
-require "bundler/setup" #=> Used to install Gems
+require 'bundler/setup' #=> Used to install Gems
 Bundler.require(:default, :development) #=> Must be passed in the correct order
 
 # Require vs Require Relative
