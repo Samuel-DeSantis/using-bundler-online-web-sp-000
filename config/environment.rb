@@ -1,5 +1,5 @@
 require 'bundler/setup' #=> Used to install Gems
-Bundler.require(:default, :development) #=> Must be passed in the correct order
+Bundler.require(:default, :development, :test) #=> Must be passed in the correct order
 
 # Require vs Require Relative
 # Require takes an absolute path for the filename, so the file must either be in the
